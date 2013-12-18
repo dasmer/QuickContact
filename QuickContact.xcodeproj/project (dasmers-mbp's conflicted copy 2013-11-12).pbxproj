@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F27336118204DAB004CC832 /* tabBarCodeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F27335F18204DAB004CC832 /* tabBarCodeIcon.png */; };
+		2F27336218204DAB004CC832 /* tabBarCodeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F27336018204DAB004CC832 /* tabBarCodeIcon@2x.png */; };
+		2F27336B18205123004CC832 /* tabCameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F27336918205123004CC832 /* tabCameraIcon.png */; };
+		2F27336C18205123004CC832 /* tabCameraIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F27336A18205123004CC832 /* tabCameraIcon@2x.png */; };
+		2F27336F182051E9004CC832 /* tabMyContactIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F27336D182051E9004CC832 /* tabMyContactIcon.png */; };
+		2F273370182051E9004CC832 /* tabMyContactIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F27336E182051E9004CC832 /* tabMyContactIcon@2x.png */; };
+		2F2733BE18207ED0004CC832 /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2733BD18207ED0004CC832 /* MeTableViewController.m */; };
+		2F2733C01820BBE1004CC832 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2733BF1820BBE1004CC832 /* iAd.framework */; };
+		2F274EE1181DEE8900C79E3F /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F274EDF181DEE8900C79E3F /* placeholder.png */; };
+		2F274EE2181DEE8900C79E3F /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F274EE0181DEE8900C79E3F /* placeholder@2x.png */; };
+		2F377BC1181DDB99008BA1F9 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F377BC0181DDB99008BA1F9 /* AddressBookUI.framework */; };
+		2F377BC3181DDBD0008BA1F9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F377BC2181DDBD0008BA1F9 /* AddressBook.framework */; };
+		2F377BC9181DDCBE008BA1F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F377BC8181DDCBE008BA1F9 /* RootViewController.m */; };
+		2F5C644518300C1A0028EDB5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5C644418300C1A0028EDB5 /* Main_iPad.storyboard */; };
+		2F9C40F218200F39000C2E40 /* tracemark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C40F018200F39000C2E40 /* tracemark.png */; };
+		2F9C40F318200F39000C2E40 /* tracemark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C40F118200F39000C2E40 /* tracemark@2x.png */; };
+		2FA81AD6181C6B1B00DC0A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA81AD5181C6B1B00DC0A9F /* Foundation.framework */; };
+		2FA81AD8181C6B1B00DC0A9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA81AD7181C6B1B00DC0A9F /* CoreGraphics.framework */; };
+		2FA81ADA181C6B1B00DC0A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA81AD9181C6B1B00DC0A9F /* UIKit.framework */; };
+		2FA81AE0181C6B1B00DC0A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81ADE181C6B1B00DC0A9F /* InfoPlist.strings */; };
+		2FA81AE2181C6B1B00DC0A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81AE1181C6B1B00DC0A9F /* main.m */; };
+		2FA81AE6181C6B1B00DC0A9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81AE5181C6B1B00DC0A9F /* AppDelegate.m */; };
+		2FA81AE9181C6B1B00DC0A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81AE7181C6B1B00DC0A9F /* Main.storyboard */; };
+		2FA81AEC181C6B1B00DC0A9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81AEB181C6B1B00DC0A9F /* ViewController.m */; };
+		2FA81AEE181C6B1B00DC0A9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81AED181C6B1B00DC0A9F /* Images.xcassets */; };
+		2FA81AF5181C6B1B00DC0A9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA81AF4181C6B1B00DC0A9F /* XCTest.framework */; };
+		2FA81AF6181C6B1B00DC0A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA81AD5181C6B1B00DC0A9F /* Foundation.framework */; };
+		2FA81AF7181C6B1B00DC0A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA81AD9181C6B1B00DC0A9F /* UIKit.framework */; };
+		2FA81AFF181C6B1B00DC0A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81AFD181C6B1B00DC0A9F /* InfoPlist.strings */; };
+		2FA81B01181C6B1B00DC0A9F /* BarcodeRewardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B00181C6B1B00DC0A9F /* BarcodeRewardsTests.m */; };
+		2FA81B0C181C6F1200DC0A9F /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B0B181C6F1200DC0A9F /* Camera.m */; };
+		2FA81B53181C8F5500DC0A9F /* QRreader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B52181C8F5500DC0A9F /* QRreader.m */; };
+		2FA81B56181C979F00DC0A9F /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B55181C979F00DC0A9F /* Barcode.m */; };
+		2FA81B5E181D662100DC0A9F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81B5B181D662100DC0A9F /* SVProgressHUD.bundle */; };
+		2FA81B5F181D662100DC0A9F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B5D181D662100DC0A9F /* SVProgressHUD.m */; };
+		2FA81B76181DB5A300DC0A9F /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B65181DB5A300DC0A9F /* bitstream.c */; };
+		2FA81B77181DB5A300DC0A9F /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B68181DB5A300DC0A9F /* mask.c */; };
+		2FA81B78181DB5A300DC0A9F /* qrenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B6A181DB5A300DC0A9F /* qrenc.c */; };
+		2FA81B79181DB5A300DC0A9F /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B6C181DB5A300DC0A9F /* qrencode.c */; };
+		2FA81B7A181DB5A300DC0A9F /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B6E181DB5A300DC0A9F /* qrinput.c */; };
+		2FA81B7B181DB5A300DC0A9F /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B70181DB5A300DC0A9F /* qrspec.c */; };
+		2FA81B7C181DB5A300DC0A9F /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B72181DB5A300DC0A9F /* rscode.c */; };
+		2FA81B7D181DB5A300DC0A9F /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B74181DB5A300DC0A9F /* split.c */; };
+		2FA81B80181DB67700DC0A9F /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B7F181DB67700DC0A9F /* QRViewController.m */; };
+		2FA81B8D181DC1DD00DC0A9F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA81B8C181DC1DD00DC0A9F /* MeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FA81AF8181C6B1B00DC0A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA81ACA181C6B1B00DC0A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA81AD1181C6B1B00DC0A9F;
+			remoteInfo = BarcodeRewards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F27335F18204DAB004CC832 /* tabBarCodeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarCodeIcon.png; sourceTree = "<group>"; };
+		2F27336018204DAB004CC832 /* tabBarCodeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarCodeIcon@2x.png"; sourceTree = "<group>"; };
+		2F27336918205123004CC832 /* tabCameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabCameraIcon.png; sourceTree = "<group>"; };
+		2F27336A18205123004CC832 /* tabCameraIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabCameraIcon@2x.png"; sourceTree = "<group>"; };
+		2F27336D182051E9004CC832 /* tabMyContactIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabMyContactIcon.png; sourceTree = "<group>"; };
+		2F27336E182051E9004CC832 /* tabMyContactIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabMyContactIcon@2x.png"; sourceTree = "<group>"; };
+		2F2733BC18207ED0004CC832 /* MeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableViewController.h; sourceTree = "<group>"; };
+		2F2733BD18207ED0004CC832 /* MeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableViewController.m; sourceTree = "<group>"; };
+		2F2733BF1820BBE1004CC832 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		2F274EDF181DEE8900C79E3F /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		2F274EE0181DEE8900C79E3F /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		2F377BC0181DDB99008BA1F9 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		2F377BC2181DDBD0008BA1F9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2F377BC7181DDCBE008BA1F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2F377BC8181DDCBE008BA1F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2F5C644418300C1A0028EDB5 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = ../Main_iPad.storyboard; sourceTree = "<group>"; };
+		2F9C40F018200F39000C2E40 /* tracemark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracemark.png; sourceTree = "<group>"; };
+		2F9C40F118200F39000C2E40 /* tracemark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tracemark@2x.png"; sourceTree = "<group>"; };
+		2FA81AD2181C6B1B00DC0A9F /* QuickContact - QRCode Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickContact - QRCode Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA81AD5181C6B1B00DC0A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FA81AD7181C6B1B00DC0A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FA81AD9181C6B1B00DC0A9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FA81ADD181C6B1B00DC0A9F /* QuickContact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickContact-Info.plist"; sourceTree = "<group>"; };
+		2FA81ADF181C6B1B00DC0A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FA81AE1181C6B1B00DC0A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FA81AE3181C6B1B00DC0A9F /* QuickContact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickContact-Prefix.pch"; sourceTree = "<group>"; };
+		2FA81AE4181C6B1B00DC0A9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FA81AE5181C6B1B00DC0A9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FA81AE8181C6B1B00DC0A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FA81AEA181C6B1B00DC0A9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FA81AEB181C6B1B00DC0A9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FA81AED181C6B1B00DC0A9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FA81AF3181C6B1B00DC0A9F /* QuickContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA81AF4181C6B1B00DC0A9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FA81AFC181C6B1B00DC0A9F /* QuickContactTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickContactTests-Info.plist"; sourceTree = "<group>"; };
+		2FA81AFE181C6B1B00DC0A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FA81B00181C6B1B00DC0A9F /* BarcodeRewardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodeRewardsTests.m; sourceTree = "<group>"; };
+		2FA81B0A181C6F1200DC0A9F /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		2FA81B0B181C6F1200DC0A9F /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		2FA81B51181C8F5500DC0A9F /* QRreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRreader.h; sourceTree = "<group>"; };
+		2FA81B52181C8F5500DC0A9F /* QRreader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRreader.m; sourceTree = "<group>"; };
+		2FA81B54181C979F00DC0A9F /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
+		2FA81B55181C979F00DC0A9F /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
+		2FA81B5A181D662100DC0A9F /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		2FA81B5B181D662100DC0A9F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2FA81B5C181D662100DC0A9F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2FA81B5D181D662100DC0A9F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		2FA81B65181DB5A300DC0A9F /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		2FA81B66181DB5A300DC0A9F /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		2FA81B67181DB5A300DC0A9F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2FA81B68181DB5A300DC0A9F /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		2FA81B69181DB5A300DC0A9F /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		2FA81B6A181DB5A300DC0A9F /* qrenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrenc.c; sourceTree = "<group>"; };
+		2FA81B6B181DB5A300DC0A9F /* qrencode_inner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode_inner.h; sourceTree = "<group>"; };
+		2FA81B6C181DB5A300DC0A9F /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		2FA81B6D181DB5A300DC0A9F /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		2FA81B6E181DB5A300DC0A9F /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		2FA81B6F181DB5A300DC0A9F /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		2FA81B70181DB5A300DC0A9F /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		2FA81B71181DB5A300DC0A9F /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		2FA81B72181DB5A300DC0A9F /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		2FA81B73181DB5A300DC0A9F /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		2FA81B74181DB5A300DC0A9F /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		2FA81B75181DB5A300DC0A9F /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		2FA81B7E181DB67700DC0A9F /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		2FA81B7F181DB67700DC0A9F /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		2FA81B8B181DC1DD00DC0A9F /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		2FA81B8C181DC1DD00DC0A9F /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA81ACF181C6B1B00DC0A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2733C01820BBE1004CC832 /* iAd.framework in Frameworks */,
+				2F377BC3181DDBD0008BA1F9 /* AddressBook.framework in Frameworks */,
+				2F377BC1181DDB99008BA1F9 /* AddressBookUI.framework in Frameworks */,
+				2FA81AD8181C6B1B00DC0A9F /* CoreGraphics.framework in Frameworks */,
+				2FA81ADA181C6B1B00DC0A9F /* UIKit.framework in Frameworks */,
+				2FA81AD6181C6B1B00DC0A9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA81AF0181C6B1B00DC0A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA81AF5181C6B1B00DC0A9F /* XCTest.framework in Frameworks */,
+				2FA81AF7181C6B1B00DC0A9F /* UIKit.framework in Frameworks */,
+				2FA81AF6181C6B1B00DC0A9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8D2F7E182226C1009899E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2F27336D182051E9004CC832 /* tabMyContactIcon.png */,
+				2F27336E182051E9004CC832 /* tabMyContactIcon@2x.png */,
+				2F27336918205123004CC832 /* tabCameraIcon.png */,
+				2F27336A18205123004CC832 /* tabCameraIcon@2x.png */,
+				2F27335F18204DAB004CC832 /* tabBarCodeIcon.png */,
+				2F27336018204DAB004CC832 /* tabBarCodeIcon@2x.png */,
+				2F9C40F018200F39000C2E40 /* tracemark.png */,
+				2F9C40F118200F39000C2E40 /* tracemark@2x.png */,
+				2F274EDF181DEE8900C79E3F /* placeholder.png */,
+				2F274EE0181DEE8900C79E3F /* placeholder@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		2FA81AC9181C6B1B00DC0A9F = {
+			isa = PBXGroup;
+			children = (
+				2FA81ADB181C6B1B00DC0A9F /* BarcodeRewards */,
+				2FA81AFA181C6B1B00DC0A9F /* BarcodeRewardsTests */,
+				2FA81AD4181C6B1B00DC0A9F /* Frameworks */,
+				2FA81AD3181C6B1B00DC0A9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA81AD3181C6B1B00DC0A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81AD2181C6B1B00DC0A9F /* QuickContact - QRCode Scanner.app */,
+				2FA81AF3181C6B1B00DC0A9F /* QuickContactTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA81AD4181C6B1B00DC0A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F2733BF1820BBE1004CC832 /* iAd.framework */,
+				2F377BC2181DDBD0008BA1F9 /* AddressBook.framework */,
+				2F377BC0181DDB99008BA1F9 /* AddressBookUI.framework */,
+				2FA81AD5181C6B1B00DC0A9F /* Foundation.framework */,
+				2FA81AD7181C6B1B00DC0A9F /* CoreGraphics.framework */,
+				2FA81AD9181C6B1B00DC0A9F /* UIKit.framework */,
+				2FA81AF4181C6B1B00DC0A9F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FA81ADB181C6B1B00DC0A9F /* BarcodeRewards */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C644418300C1A0028EDB5 /* Main_iPad.storyboard */,
+				2FA81AE7181C6B1B00DC0A9F /* Main.storyboard */,
+				2F2733BC18207ED0004CC832 /* MeTableViewController.h */,
+				2F2733BD18207ED0004CC832 /* MeTableViewController.m */,
+				2FA81B8B181DC1DD00DC0A9F /* MeViewController.h */,
+				2FA81B8C181DC1DD00DC0A9F /* MeViewController.m */,
+				2FA81B7E181DB67700DC0A9F /* QRViewController.h */,
+				2FA81B7F181DB67700DC0A9F /* QRViewController.m */,
+				2F377BC7181DDCBE008BA1F9 /* RootViewController.h */,
+				2F377BC8181DDCBE008BA1F9 /* RootViewController.m */,
+				2FA81B81181DBE9000DC0A9F /* Scanner */,
+				2FA81B64181DB56900DC0A9F /* QRLib */,
+				2FA81AED181C6B1B00DC0A9F /* Images.xcassets */,
+				2FA81ADC181C6B1B00DC0A9F /* Supporting Files */,
+			);
+			path = BarcodeRewards;
+			sourceTree = "<group>";
+		};
+		2FA81ADC181C6B1B00DC0A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2F7E182226C1009899E9 /* images */,
+				2FA81AE4181C6B1B00DC0A9F /* AppDelegate.h */,
+				2FA81AE5181C6B1B00DC0A9F /* AppDelegate.m */,
+				2FA81B60181D662F00DC0A9F /* SVProgressHUD */,
+				2FA81ADD181C6B1B00DC0A9F /* QuickContact-Info.plist */,
+				2FA81ADE181C6B1B00DC0A9F /* InfoPlist.strings */,
+				2FA81AE1181C6B1B00DC0A9F /* main.m */,
+				2FA81AE3181C6B1B00DC0A9F /* QuickContact-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FA81AFA181C6B1B00DC0A9F /* BarcodeRewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81B00181C6B1B00DC0A9F /* BarcodeRewardsTests.m */,
+				2FA81AFB181C6B1B00DC0A9F /* Supporting Files */,
+			);
+			path = BarcodeRewardsTests;
+			sourceTree = "<group>";
+		};
+		2FA81AFB181C6B1B00DC0A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81AFC181C6B1B00DC0A9F /* QuickContactTests-Info.plist */,
+				2FA81AFD181C6B1B00DC0A9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FA81B60181D662F00DC0A9F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81B5A181D662100DC0A9F /* SVProgressHUD-Prefix.pch */,
+				2FA81B5B181D662100DC0A9F /* SVProgressHUD.bundle */,
+				2FA81B5C181D662100DC0A9F /* SVProgressHUD.h */,
+				2FA81B5D181D662100DC0A9F /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		2FA81B64181DB56900DC0A9F /* QRLib */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81B65181DB5A300DC0A9F /* bitstream.c */,
+				2FA81B66181DB5A300DC0A9F /* bitstream.h */,
+				2FA81B67181DB5A300DC0A9F /* config.h */,
+				2FA81B68181DB5A300DC0A9F /* mask.c */,
+				2FA81B69181DB5A300DC0A9F /* mask.h */,
+				2FA81B6A181DB5A300DC0A9F /* qrenc.c */,
+				2FA81B6B181DB5A300DC0A9F /* qrencode_inner.h */,
+				2FA81B6C181DB5A300DC0A9F /* qrencode.c */,
+				2FA81B6D181DB5A300DC0A9F /* qrencode.h */,
+				2FA81B6E181DB5A300DC0A9F /* qrinput.c */,
+				2FA81B6F181DB5A300DC0A9F /* qrinput.h */,
+				2FA81B70181DB5A300DC0A9F /* qrspec.c */,
+				2FA81B71181DB5A300DC0A9F /* qrspec.h */,
+				2FA81B72181DB5A300DC0A9F /* rscode.c */,
+				2FA81B73181DB5A300DC0A9F /* rscode.h */,
+				2FA81B74181DB5A300DC0A9F /* split.c */,
+				2FA81B75181DB5A300DC0A9F /* split.h */,
+			);
+			name = QRLib;
+			sourceTree = "<group>";
+		};
+		2FA81B81181DBE9000DC0A9F /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81B54181C979F00DC0A9F /* Barcode.h */,
+				2FA81B55181C979F00DC0A9F /* Barcode.m */,
+				2FA81B51181C8F5500DC0A9F /* QRreader.h */,
+				2FA81B52181C8F5500DC0A9F /* QRreader.m */,
+				2FA81B0A181C6F1200DC0A9F /* Camera.h */,
+				2FA81B0B181C6F1200DC0A9F /* Camera.m */,
+				2FA81AEA181C6B1B00DC0A9F /* ViewController.h */,
+				2FA81AEB181C6B1B00DC0A9F /* ViewController.m */,
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA81AD1181C6B1B00DC0A9F /* QuickContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA81B04181C6B1B00DC0A9F /* Build configuration list for PBXNativeTarget "QuickContact" */;
+			buildPhases = (
+				2FA81ACE181C6B1B00DC0A9F /* Sources */,
+				2FA81ACF181C6B1B00DC0A9F /* Frameworks */,
+				2FA81AD0181C6B1B00DC0A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickContact;
+			productName = BarcodeRewards;
+			productReference = 2FA81AD2181C6B1B00DC0A9F /* QuickContact - QRCode Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FA81AF2181C6B1B00DC0A9F /* QuickContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA81B07181C6B1B00DC0A9F /* Build configuration list for PBXNativeTarget "QuickContactTests" */;
+			buildPhases = (
+				2FA81AEF181C6B1B00DC0A9F /* Sources */,
+				2FA81AF0181C6B1B00DC0A9F /* Frameworks */,
+				2FA81AF1181C6B1B00DC0A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA81AF9181C6B1B00DC0A9F /* PBXTargetDependency */,
+			);
+			name = QuickContactTests;
+			productName = BarcodeRewardsTests;
+			productReference = 2FA81AF3181C6B1B00DC0A9F /* QuickContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA81ACA181C6B1B00DC0A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Columbia University";
+				TargetAttributes = {
+					2FA81AF2181C6B1B00DC0A9F = {
+						TestTargetID = 2FA81AD1181C6B1B00DC0A9F;
+					};
+				};
+			};
+			buildConfigurationList = 2FA81ACD181C6B1B00DC0A9F /* Build configuration list for PBXProject "QuickContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA81AC9181C6B1B00DC0A9F;
+			productRefGroup = 2FA81AD3181C6B1B00DC0A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA81AD1181C6B1B00DC0A9F /* QuickContact */,
+				2FA81AF2181C6B1B00DC0A9F /* QuickContactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA81AD0181C6B1B00DC0A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5C644518300C1A0028EDB5 /* Main_iPad.storyboard in Resources */,
+				2FA81AEE181C6B1B00DC0A9F /* Images.xcassets in Resources */,
+				2F9C40F218200F39000C2E40 /* tracemark.png in Resources */,
+				2F273370182051E9004CC832 /* tabMyContactIcon@2x.png in Resources */,
+				2FA81AE0181C6B1B00DC0A9F /* InfoPlist.strings in Resources */,
+				2F274EE2181DEE8900C79E3F /* placeholder@2x.png in Resources */,
+				2FA81AE9181C6B1B00DC0A9F /* Main.storyboard in Resources */,
+				2F27336118204DAB004CC832 /* tabBarCodeIcon.png in Resources */,
+				2F27336218204DAB004CC832 /* tabBarCodeIcon@2x.png in Resources */,
+				2F27336B18205123004CC832 /* tabCameraIcon.png in Resources */,
+				2F274EE1181DEE8900C79E3F /* placeholder.png in Resources */,
+				2FA81B5E181D662100DC0A9F /* SVProgressHUD.bundle in Resources */,
+				2F27336F182051E9004CC832 /* tabMyContactIcon.png in Resources */,
+				2F27336C18205123004CC832 /* tabCameraIcon@2x.png in Resources */,
+				2F9C40F318200F39000C2E40 /* tracemark@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA81AF1181C6B1B00DC0A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA81AFF181C6B1B00DC0A9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA81ACE181C6B1B00DC0A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA81B8D181DC1DD00DC0A9F /* MeViewController.m in Sources */,
+				2FA81B0C181C6F1200DC0A9F /* Camera.m in Sources */,
+				2FA81B7A181DB5A300DC0A9F /* qrinput.c in Sources */,
+				2FA81B76181DB5A300DC0A9F /* bitstream.c in Sources */,
+				2FA81B5F181D662100DC0A9F /* SVProgressHUD.m in Sources */,
+				2FA81B79181DB5A300DC0A9F /* qrencode.c in Sources */,
+				2FA81AEC181C6B1B00DC0A9F /* ViewController.m in Sources */,
+				2FA81AE6181C6B1B00DC0A9F /* AppDelegate.m in Sources */,
+				2FA81B53181C8F5500DC0A9F /* QRreader.m in Sources */,
+				2FA81B7C181DB5A300DC0A9F /* rscode.c in Sources */,
+				2FA81B56181C979F00DC0A9F /* Barcode.m in Sources */,
+				2F2733BE18207ED0004CC832 /* MeTableViewController.m in Sources */,
+				2FA81B7D181DB5A300DC0A9F /* split.c in Sources */,
+				2FA81AE2181C6B1B00DC0A9F /* main.m in Sources */,
+				2FA81B78181DB5A300DC0A9F /* qrenc.c in Sources */,
+				2F377BC9181DDCBE008BA1F9 /* RootViewController.m in Sources */,
+				2FA81B80181DB67700DC0A9F /* QRViewController.m in Sources */,
+				2FA81B7B181DB5A300DC0A9F /* qrspec.c in Sources */,
+				2FA81B77181DB5A300DC0A9F /* mask.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA81AEF181C6B1B00DC0A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA81B01181C6B1B00DC0A9F /* BarcodeRewardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA81AF9181C6B1B00DC0A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA81AD1181C6B1B00DC0A9F /* QuickContact */;
+			targetProxy = 2FA81AF8181C6B1B00DC0A9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FA81ADE181C6B1B00DC0A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA81ADF181C6B1B00DC0A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FA81AE7181C6B1B00DC0A9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA81AE8181C6B1B00DC0A9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FA81AFD181C6B1B00DC0A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA81AFE181C6B1B00DC0A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F8D2F7F182227BB009899E9 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		2F8D2F80182227BB009899E9 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dasmer Singh (63259B266M)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarcodeRewards/QuickContact-Prefix.pch";
+				INFOPLIST_FILE = "BarcodeRewards/QuickContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "QuickContact - QRCode Scanner";
+				PROVISIONING_PROFILE = "7411F705-366E-405E-97A0-179A44AB15C3";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+		2F8D2F81182227BB009899E9 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarcodeRewards.app/BarcodeRewards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarcodeRewards/BarcodeRewards-Prefix.pch";
+				INFOPLIST_FILE = "BarcodeRewardsTests/QuickContactTests-Info.plist";
+				PRODUCT_NAME = QuickContactTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AppStore;
+		};
+		2FA81B02181C6B1B00DC0A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FA81B03181C6B1B00DC0A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA81B05181C6B1B00DC0A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarcodeRewards/QuickContact-Prefix.pch";
+				INFOPLIST_FILE = "BarcodeRewards/QuickContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "QuickContact - QRCode Scanner";
+				PROVISIONING_PROFILE = "B7C3D2A4-79FC-4B9B-AA6C-3DB2F983BF28";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FA81B06181C6B1B00DC0A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dasmer Singh (63259B266M)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarcodeRewards/QuickContact-Prefix.pch";
+				INFOPLIST_FILE = "BarcodeRewards/QuickContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "QuickContact - QRCode Scanner";
+				PROVISIONING_PROFILE = "17291CC1-5409-4E8A-BC96-04906FD5BD03";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FA81B08181C6B1B00DC0A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarcodeRewards.app/BarcodeRewards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarcodeRewards/BarcodeRewards-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BarcodeRewardsTests/QuickContactTests-Info.plist";
+				PRODUCT_NAME = QuickContactTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2FA81B09181C6B1B00DC0A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarcodeRewards.app/BarcodeRewards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarcodeRewards/BarcodeRewards-Prefix.pch";
+				INFOPLIST_FILE = "BarcodeRewardsTests/QuickContactTests-Info.plist";
+				PRODUCT_NAME = QuickContactTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA81ACD181C6B1B00DC0A9F /* Build configuration list for PBXProject "QuickContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA81B02181C6B1B00DC0A9F /* Debug */,
+				2FA81B03181C6B1B00DC0A9F /* Release */,
+				2F8D2F7F182227BB009899E9 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA81B04181C6B1B00DC0A9F /* Build configuration list for PBXNativeTarget "QuickContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA81B05181C6B1B00DC0A9F /* Debug */,
+				2FA81B06181C6B1B00DC0A9F /* Release */,
+				2F8D2F80182227BB009899E9 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA81B07181C6B1B00DC0A9F /* Build configuration list for PBXNativeTarget "QuickContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA81B08181C6B1B00DC0A9F /* Debug */,
+				2FA81B09181C6B1B00DC0A9F /* Release */,
+				2F8D2F81182227BB009899E9 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA81ACA181C6B1B00DC0A9F /* Project object */;
+}
